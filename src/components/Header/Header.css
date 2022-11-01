@@ -1,0 +1,10 @@
+.header{
+    background-color: black;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.header .logo{
+    line-height: 70px;
+}

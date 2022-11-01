@@ -1,0 +1,14 @@
+
+.navbar nav{
+    display: flex;
+}
+.navbar nav a{
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.navbar nav a:hover,
+.navbar nav a:active{
+    color: aqua;
+}
