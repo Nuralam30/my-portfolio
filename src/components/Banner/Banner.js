@@ -1,10 +1,13 @@
 import React from 'react';
 import './Banner.css';
-import Grid from '@mui/material/Grid';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import profileImage from '../utilities/images/NurImage.png';
+import Typed from './Typed';
+import Grid from '@mui/material/Grid';
+
 
 const Banner = () => {
     return (
@@ -15,12 +18,19 @@ const Banner = () => {
                 <a href="#linkedin"><LinkedInIcon className='icon-link linkedin' sx={{ fontSize: 45 }} /></a>
                 <a href="#twitter"><TwitterIcon className='icon-link twitter' sx={{ fontSize: 45 }} /></a>
             </div>
-            <Grid container spacing={2}>
-                <Grid item xs={7}>
-                    <h3>Hello</h3>
+
+
+            <Grid container spacing={2} className='banner-text'>
+                <Grid item xs={8}>
+                    <p>Hi, My name is <span className='highlight'>Nura Alam</span></p>
+                    <p className='typed-text'>I am a <Typed className='highlight'></Typed></p>
+                    <button className='get-in-touch'>Get in Touch</button>
                 </Grid>
+
                 <Grid item xs={4}>
-                    <h3>This is banner</h3>
+                    <div className="profile-image">
+                        <img src={profileImage} alt="profile" />
+                    </div>
                 </Grid>
             </Grid>
         </div>
