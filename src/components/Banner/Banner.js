@@ -24,7 +24,7 @@ const Banner = () => {
                 <Grid item xs={8}>
                     <p>Hi, My name is <span className='highlight'>Nura Alam</span></p>
                     <p className='typed-text'>I am a <Typed className='highlight'></Typed></p>
-                    <button className='get-in-touch'>Get in Touch</button>
+                    <div className='get-in-touch'> <div className='btn-hover'> </div><button className='get-in-touch-btn'>Get in Touch</button> </div>
                 </Grid>
 
                 <Grid item xs={4}>
