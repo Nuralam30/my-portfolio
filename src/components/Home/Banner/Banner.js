@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import profileImage from '../utilities/images/NurImage.png';
+import profileImage from '../../utilities/images/NurImage.png';
 import Typed from './Typed';
 import Grid from '@mui/material/Grid';
 
