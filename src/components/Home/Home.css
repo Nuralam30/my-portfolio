@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 550px) {
+    .social-links{
+        display: none !important;
+    }
+    .banner-text p{
+        font-size: 1.1rem !important;
+    }
+    .banner-text .highlight{
+        font-size: 1.3rem !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header .logo{
+        height: 50px !important;
+    }
+    .banner-text{
+        padding: 0px 20px !important;
+    }
+    .banner-text p{
+        font-size: 16px !important;
+    }
+    .banner-text .highlight{
+        font-size: 18px !important;
+    }
+    .get-in-touch{
+        max-width: 100px;
+    }
+    .btn-animation{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .banner-text p{
+        font-size: 14px !important;
+    }
+    .banner-text .highlight{
+        font-size: 16px !important;
+    }
+    .get-in-touch{
+        height: 30px !important;
+        max-width: 80px !important;
+    }
+    .btn-animation{
+        font-size: 8px;
+    }
+}

@@ -61,7 +61,6 @@
     margin-top: 40px;
     width: 140px;
     height: 35px;
-    font-size: 16px;
     border: 1px solid #dedede;
     border-radius: 5px;
     position: relative;
@@ -73,10 +72,15 @@
     top: 0;
     left: 0;
     height: 100%;
-    transition: all 1s ease
+    transition: all .5s ease-in;
+    cursor: pointer;
 }
-.get-in-touch-btn{
+.btn-hover{
+    width: 0%;
+}
+.btn-animation{
     width: 100%;
+    font-size: 16px;
     background-color: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -87,16 +91,9 @@
 .get-in-touch:hover .btn-hover{  
     z-index: 9;
     background-color: #1c2c31;
-    animation: btnHover 1s ease;
+    width: 100%;
 }
-@keyframes btnHover{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 100%;
-    }
-}
+
 
 /* ==============profile  image section ============== */
 .profile-image{

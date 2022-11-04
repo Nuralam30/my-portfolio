@@ -10,7 +10,7 @@ const textLines = [
 
 const Typed = () => {
     return ( 
-        <span style={{ fontSize: "1.8rem" }}>
+        <span className='highlight'>
             <TypedJs strings={textLines} typeSpeed={60} backSpeed={50} endDelay={100} loop={true} />
         </span>
     );
