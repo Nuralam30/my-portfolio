@@ -29,13 +29,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
 }
 .contact-links h2{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 400;
 }
 .contact-links a{
-    font-size: 24px;
+    font-size: 1.4rem;
     color: #fff;
     width: 80%;
     text-decoration: none;

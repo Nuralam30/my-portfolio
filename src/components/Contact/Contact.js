@@ -15,7 +15,7 @@ const Contact = () => {
             <Header></Header>
             <div className="contact"> 
                     <Grid container spacing={2}>
-                        <Grid item xs={8} md={8}>
+                        <Grid item xs={12} md={8}>
                             <Box
                                 sx={{
                                     width: 350,
@@ -54,16 +54,16 @@ const Contact = () => {
                         </Box> 
                     </Grid>
 
-                    <Grid item xs={4} md={4}> 
+                    <Grid item xs={12} md={4}> 
                         <div className="contact-links">
-                            <h2>Contact me on</h2>
-                            <a href="https://www.facebook.com/nuralom.bhuiyain.1" rel='noreferrer' target='_blank'><FacebookIcon sx={{fontSize: '30px'}} className='fb'></FacebookIcon> Facebook</a>
+                            <h2>Connnect me on</h2>
+                            <a href="https://www.facebook.com/nuralom.bhuiyain.1" rel='noreferrer' target='_blank'><FacebookIcon sx={{fontSize: '1.8rem'}} className='fb'></FacebookIcon> Facebook</a>
 
-                            <a href="https://www.linkedin.com/in/nur-alam-5a10541b3/" rel='noreferrer' target='_blank'><LinkedInIcon sx={{fontSize: '30px'}} className='linkedin'></LinkedInIcon> Linkedin</a>
+                            <a href="https://www.linkedin.com/in/nur-alam-5a10541b3/" rel='noreferrer' target='_blank'><LinkedInIcon sx={{fontSize: '1.8rem'}} className='linkedin'></LinkedInIcon> Linkedin</a>
 
-                            <a href="https://twitter.com/NuraAla23500955" rel='noreferrer' target='_blank'><TwitterIcon sx={{fontSize: '30px'}} className='twitter'></TwitterIcon> Twitter</a>
-                            
-                            <a href="https://github.com/Nuralam30" rel='noreferrer' target='_blank'><GitHubIcon sx={{fontSize: '30px'}} className='github'></GitHubIcon> Github</a>
+                            <a href="https://twitter.com/NuraAla23500955" rel='noreferrer' target='_blank'><TwitterIcon sx={{fontSize: '1.8rem'}} className='twitter'></TwitterIcon> Twitter</a>
+
+                            <a href="https://github.com/Nuralam30" rel='noreferrer' target='_blank'><GitHubIcon sx={{fontSize: '1.8rem'}} className='github'></GitHubIcon> Github</a>
                         </div> 
                     </Grid>
                 </Grid>
