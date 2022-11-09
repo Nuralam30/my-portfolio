@@ -25,6 +25,8 @@
     top: 25px;
     display: flex;
     flex-direction: column;
+    z-index: 105;
+    display: none;
 }
 .bar{
     width: 20px;

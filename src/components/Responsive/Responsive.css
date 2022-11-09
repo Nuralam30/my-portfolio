@@ -6,15 +6,19 @@
     }
 }
 
-@media screen and (max-width: 550px) {
-    .social-links{
-        display: none !important;
-    }
+
+@media screen and (max-width: 720px) {
     .banner-text p{
         font-size: 1.1rem !important;
     }
     .banner-text .highlight{
         font-size: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-links{
+        display: none !important;
     }
     .contact{
         padding: 10px 40px;
@@ -27,34 +31,38 @@
     .header .logo{
         height: 50px !important;
     }
+    .navbar nav .nav-link{
+        font-size: 0.9rem !important;
+    }
     .banner-text{
         padding: 0px 20px !important;
     }
     .banner-text p{
-        font-size: 16px !important;
+        font-size: .9rem !important;
     }
     .banner-text .highlight{
-        font-size: 18px !important;
+        font-size: 1.1rem !important;
     }
     .get-in-touch{
         max-width: 100px !important;
     }
     .btn-animation{
-        font-size: 12px !important;
+        font-size: 0.7rem !important;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .banner-text p{
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
     .banner-text .highlight{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .get-in-touch{
-        max-width: 80px !important;
+        max-width: 70px !important;
+        height: 25px !important;
     }
     .btn-animation{
-        font-size: 10px !important;
+        font-size: 0.5rem !important;
     }
     
     .contact{

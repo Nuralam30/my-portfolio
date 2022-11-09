@@ -10,11 +10,17 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
+import { useState } from 'react';
+import { createContext } from 'react';
 
+export const ToggleContext = createContext();
 
 function App() {
+
+  const [isNav, setIsNav] = useState(false);
+
   return (
-    <div className="App">
+    <ToggleContext.Provider value={[isNav, setIsNav]} className="App">
       <Router>
         <Routes>
           <Route path='*' element={<Home></Home>}></Route>
@@ -26,7 +32,7 @@ function App() {
         </Routes>
       </Router>
       
-    </div>
+    </ToggleContext.Provider>
   );
 }
 
