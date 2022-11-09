@@ -24,13 +24,34 @@
 .MuiInputBase-root textarea{
     color: #fff;
 }
-.social-icons{
+.contact-links{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.social-icons a{
-    padding: 5px 20px;
-    background-color: rgba(0, 0, 0, 0.25);
+.contact-links h2{
+    margin-bottom: 40px;
+    font-weight: 400;
 }
+.contact-links a{
+    font-size: 24px;
+    color: #fff;
+    width: 80%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-bottom: 4px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+.contact-links a:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.contact-links .fb,
+.contact-links .linkedin,
+.contact-links .twitter,
+.contact-links .github{
+    margin-right: 10px;
+}
+

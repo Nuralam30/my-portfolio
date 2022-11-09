@@ -55,11 +55,15 @@ const Contact = () => {
                     </Grid>
 
                     <Grid item xs={4} md={4}> 
-                        <div className="social-icons">
-                            <a href="#facebook"><FacebookIcon sx={{fontSize: '25px'}}></FacebookIcon></a>
-                            <a href="#linkedin"><LinkedInIcon sx={{fontSize: '25px'}}></LinkedInIcon></a>
-                            <a href="#twitter"><TwitterIcon sx={{fontSize: '25px'}}></TwitterIcon></a>
-                            <a href="#github"><GitHubIcon sx={{fontSize: '25px'}}></GitHubIcon></a>
+                        <div className="contact-links">
+                            <h2>Contact me on</h2>
+                            <a href="https://www.facebook.com/nuralom.bhuiyain.1" rel='noreferrer' target='_blank'><FacebookIcon sx={{fontSize: '30px'}} className='fb'></FacebookIcon> Facebook</a>
+
+                            <a href="https://www.linkedin.com/in/nur-alam-5a10541b3/" rel='noreferrer' target='_blank'><LinkedInIcon sx={{fontSize: '30px'}} className='linkedin'></LinkedInIcon> Linkedin</a>
+
+                            <a href="https://twitter.com/NuraAla23500955" rel='noreferrer' target='_blank'><TwitterIcon sx={{fontSize: '30px'}} className='twitter'></TwitterIcon> Twitter</a>
+                            
+                            <a href="https://github.com/Nuralam30" rel='noreferrer' target='_blank'><GitHubIcon sx={{fontSize: '30px'}} className='github'></GitHubIcon> Github</a>
                         </div> 
                     </Grid>
                 </Grid>
