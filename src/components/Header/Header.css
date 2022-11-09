@@ -1,4 +1,5 @@
 .header{
+    width: 100%;
     background-color: 080b21;
     line-height: 60px;
     display: flex;
@@ -6,6 +7,7 @@
     align-items: center;
     padding: 0px 100px;
     border-bottom: 1px solid #25113a;
+    position: relative;
 }
 .header .logo{
     height: 80px;
@@ -18,33 +20,15 @@
 
 /* ---------toggle button start---------- */
 .toggle-btn{
+    position: absolute;
+    right: 10%;
+    top: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    display: none;
 }
 .bar{
     width: 20px;
     height: 3px;
     background-color: #ffffff;
     margin-bottom: 4px;
-}
-
-
-/* ===========responsive navbar============= */
-@media screen and (max-width: 800px) {
-    .navbar{
-        display: none;
-    }
-    .toggle-btn{
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header{
-        padding: 0px 50px;
-    }
 }

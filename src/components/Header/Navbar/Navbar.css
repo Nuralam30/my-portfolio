@@ -27,3 +27,35 @@
 }
 
 
+
+/* ===========responsive navbar============= */
+@media screen and (max-width: 800px) {
+    .header .logo{
+        position: absolute;
+        left: 10%;
+        top: 0;
+    }
+    .navbar{
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #964646;
+        z-index: 101 !important;
+    }
+    .navbar nav{
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .logo{
+        height: 60px !important;
+    }
+    
+    .toggle-btn{
+        display: flex;
+    }
+}
+

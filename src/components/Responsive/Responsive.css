@@ -1,4 +1,11 @@
 
+
+@media screen and (max-width: 600px) {
+    .header{
+        padding: 0px 50px !important;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .social-links{
         display: none !important;
@@ -14,6 +21,9 @@
     }
 }
 @media screen and (max-width: 480px) {
+    .header{
+        padding: 0px 30px !important;
+    }
     .header .logo{
         height: 50px !important;
     }
@@ -27,10 +37,10 @@
         font-size: 18px !important;
     }
     .get-in-touch{
-        max-width: 100px;
+        max-width: 100px !important;
     }
     .btn-animation{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
 @media screen and (max-width: 400px) {
@@ -41,11 +51,10 @@
         font-size: 16px !important;
     }
     .get-in-touch{
-        height: 30px !important;
         max-width: 80px !important;
     }
     .btn-animation{
-        font-size: 8px;
+        font-size: 10px !important;
     }
     
     .contact{

@@ -2,6 +2,7 @@
     min-height: 85vh;
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 .social-links{
     min-width: 100px;
