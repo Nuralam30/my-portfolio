@@ -1,0 +1,36 @@
+.contact{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.MuiFormControl-root{
+    margin-bottom: 30px !important;
+}
+.MuiFormControl-root label, 
+#my-input,
+#my-helper-text{
+    color: #fff;
+}
+#my-input{
+    border-bottom: 1px solid #fff;
+    padding: 2px 15px;
+}
+.MuiOutlinedInput-notchedOutline {
+    border-color: #ffffffcc !important;
+}
+.MuiInputBase-root textarea{
+    color: #fff;
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
