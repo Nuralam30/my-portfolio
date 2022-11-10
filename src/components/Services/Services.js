@@ -6,8 +6,6 @@ import Service from './Service/Service';
 
 const Services = () => {
 
-    console.log(AllServices)
-
     return (
         <div>
             <Header></Header>
@@ -17,8 +15,6 @@ const Services = () => {
                     {
                         AllServices.map( ser => <Service card={ser}></Service>)
                     }
-                    
-                    
                 </div>
             </div>
         </div>

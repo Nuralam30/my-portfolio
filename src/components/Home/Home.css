@@ -1,0 +1,5 @@
+.service-home{
+    padding: 30px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
