@@ -1,0 +1,32 @@
+
+.service-card{
+    margin: 15px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #09181d !important;
+    box-shadow: 10px 5px 10px #0b0e0f inset,
+                5px 10px 10px #09181d inset,
+                0px 5px 10px #0b0e0f inset,
+                5px 10px 10px #09181d inset !important;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    background-color: #0e1b1f !important;
+    text-align: center;
+}
+.service-img{
+    max-height: 120px;
+    background-color: #414242;
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.MuiCardMedia-img{
+    height: 100%;
+}
+.MuiTypography-h5,
+.MuiTypography-body2{
+    color: #c7c5c5 !important;
+}

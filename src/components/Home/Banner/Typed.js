@@ -5,7 +5,8 @@ const textLines = [
     `Web Desiner`,
     ` Web Developer`,
     `Graphic Designer`,
-    `Food Blogger`
+    `Freelancer`,
+    `Photographer`
   ];
 
 const Typed = () => {

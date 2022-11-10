@@ -5,6 +5,7 @@ import Graphic from '../utilities/images/services/graphic.png';
 import Ecommerce from '../utilities/images/services/ecommerce.png';
 import Settings from '../utilities/images/services/settings.png';
 
+
 export const AllServices = [
     {
         image : Web,
@@ -28,7 +29,7 @@ export const AllServices = [
     },
     {
         image : Ecommerce,
-        heading : 'Ecommerce Website Design',
+        heading : 'Ecommerce Website',
         description : ''
     },
     {
