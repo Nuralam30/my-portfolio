@@ -1,12 +1,4 @@
 
-
-@media screen and (max-width: 600px) {
-    .header{
-        padding: 0px 50px !important;
-    }
-}
-
-
 @media screen and (max-width: 720px) {
     .banner-text p{
         font-size: 1.1rem !important;
@@ -17,11 +9,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .header{
+        padding: 0px 50px !important;
+    }
     .social-links{
         display: none !important;
     }
     .contact{
-        padding: 10px 40px;
+        padding: 10px 80px !important;
     }
 }
 @media screen and (max-width: 480px) {
@@ -31,7 +26,7 @@
     .header .logo{
         height: 50px !important;
     }
-    .navbar nav .nav-link{
+    .navbar nav #nav-link{
         font-size: 0.9rem !important;
     }
     .banner-text{
@@ -66,6 +61,6 @@
     }
     
     .contact{
-        padding: 10px 30px;
+        padding: 10px 30px !important;
     }
 }

@@ -1,21 +1,36 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './Navbar.css';
-import { Link } from "react-router-dom";
-import { ToggleContext } from '../../../App';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
-    const [isNav, setIsNav] = useContext(ToggleContext);
-    console.log(isNav)
-
     return (
-        <div className={ isNav ? 'navbar toggle-active' : 'navbar'}>
+        <div className='navbar'>
             <nav>
-                <Link to="/home" className='nav-link active'>Home</Link>
-                <Link to="/about" className='nav-link'>About</Link>
-                <Link to="/services" className='nav-link'>Services</Link>
-                <Link to="/portfolio" className='nav-link'>Portfolio</Link>
-                <Link to="/contact" className='nav-link'>Contact</Link>
+                <NavLink to="/" id='nav-link' className={({ isActive }) =>
+                    isActive ? 'active' : ''
+                    }>Home
+                </NavLink>
+
+                <NavLink to="/about" id='nav-link' className={({ isActive }) =>
+                    isActive ? 'active' : ''
+                    }>About
+                </NavLink>
+
+                <NavLink to="/services" id='nav-link' className={({ isActive }) =>
+                    isActive ? 'active' : ''
+                    }>Services
+                </NavLink>
+
+                <NavLink to="/portfolio" id='nav-link' className={({ isActive }) =>
+                    isActive ? 'active' : ''
+                    }>Portfolio
+                </NavLink>
+
+                <NavLink to="/contact" id='nav-link' className={({ isActive }) =>
+                    isActive ? 'active' : ''
+                    }>Contact
+                </NavLink>
             </nav>
         </div>
     );

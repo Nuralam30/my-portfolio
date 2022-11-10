@@ -21,7 +21,7 @@
 /* ---------toggle button start---------- */
 .toggle-btn{
     position: absolute;
-    right: 10%;
+    right: 12%;
     top: 25px;
     display: flex;
     flex-direction: column;

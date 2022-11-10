@@ -2,7 +2,7 @@
 .navbar nav{
     display: flex;
 }
-.navbar nav .nav-link{
+.navbar nav #nav-link{
     margin: 0px 15px;
     padding: 10px 0px;
     text-decoration: none;
@@ -10,11 +10,11 @@
     color: #fff;
     position: relative;
 }
-.navbar nav .nav-link:hover,
-.navbar nav .nav-link.active{
+.navbar nav #nav-link:hover,
+.navbar nav #nav-link.active{
     color: aqua;
 }
-.navbar .nav-link.active::before{
+.navbar #nav-link.active::before{
     content: '';
     height: 3px;
     width: 80%;
@@ -30,6 +30,9 @@
 
 /* ===========responsive navbar============= */
 @media screen and (max-width: 800px) {
+    .header{
+        height: 80px !important;
+    }
     .header .logo{
         position: absolute;
         left: 10%;
@@ -40,23 +43,10 @@
         min-height: 100vh;
         position: absolute;
         left: 0;
-        top: -100vh;
+        top: 0;
         background-color: #091316;
         z-index: 101 !important;
-        transition: all 1s ease-in;
     }
-    .navbar.toggle-active{
-        top: 0;
-        /* animation: pageDown 1s ease-in; */
-    }
-    /* @keyframes pageDown {
-        0%{
-            top: -100vh;
-        }
-        100%{    
-            top: 0;
-        }
-    } */
     .navbar nav{
         flex-direction: column;
         justify-content: center;
@@ -71,7 +61,7 @@
         display: flex;
     }
     .banner{
-        min-height: 100vh !important;
+        min-height: 90vh !important;
     }
 }
 
