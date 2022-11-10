@@ -1,0 +1,18 @@
+
+.services{
+    width: 100%;
+    padding: 40px 100px;
+}
+.service-text{
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-card{
+    margin: 15px;
+}
