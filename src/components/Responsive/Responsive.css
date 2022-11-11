@@ -1,10 +1,26 @@
 
+@media screen and (max-width: 950px) {
+    .services,
+    .service-home{
+        padding: 10px 60px !important;
+    }
+}
+@media screen and (max-width: 870px) {
+    .services,
+    .service-home{
+        padding: 10px 30px !important;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .banner-text p{
         font-size: 1.1rem !important;
     }
     .banner-text .highlight{
         font-size: 1.3rem !important;
+    }
+    .service-text{
+        font-size: 1.5rem !important;
     }
 }
 
@@ -43,6 +59,13 @@
     }
     .btn-animation{
         font-size: 0.7rem !important;
+    }
+    .services,
+    .service-home{
+        padding: 10px 15px !important;
+    }
+    .service-text{
+        font-size: 1.3rem !important;
     }
 }
 @media screen and (max-width: 420px) {
