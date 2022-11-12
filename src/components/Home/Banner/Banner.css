@@ -83,12 +83,14 @@
 }
 .btn-animation{
     width: 100%;
-    font-size: 16px;
     background-color: transparent;
     color: #fff;
     text-transform: uppercase;
     border: none;
     z-index: 10;
+}
+.get-in-touch .btn-animation{
+    font-size: 16px;
 }
 
 .get-in-touch:hover .btn-hover{  
