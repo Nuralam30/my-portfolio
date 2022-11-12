@@ -1,6 +1,7 @@
 import React from 'react';
 import './SingleItem.css';
 import Grid from '@mui/material/Grid';
+import { Link } from 'react-router-dom';
 
 const SingleItem = (props) => {
 
@@ -13,7 +14,7 @@ const SingleItem = (props) => {
                     <img src={item.image} alt="" />
                 </div>
                 <div className='overly'>
-                    <h4>Preview</h4>
+                    <Link to='/portfolio-item'></Link>
                 </div>
             </Grid>
         </>

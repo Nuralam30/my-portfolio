@@ -1,7 +1,7 @@
 
 .portfolio-item{
     height: 220px;
-    max-width: 270px;
+    max-width: 270px !important;
     margin: 8px 10px;
     border: 1px solid #162222;
     position: relative;
