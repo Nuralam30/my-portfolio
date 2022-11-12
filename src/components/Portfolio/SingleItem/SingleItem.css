@@ -1,16 +1,39 @@
 
 .portfolio-item{
-    padding: 5px 10px;
-    margin: 5px 0px;
-}
-.portfolio-item .image{
     height: 220px;
     max-width: 270px;
+    margin: 8px 10px;
     border: 1px solid #162222;
+    position: relative;
     overflow: hidden;
 }
-.portfolio-item .image img{
+
+.portfolio-item .image,
+.portfolio-item img,
+.portfolio-item .overly{
     height: 100%;
-    width: 100%;    
+    width: 100%;
+}
+.portfolio-item .image img{    
     object-fit: cover;
+}
+
+/*======= overly designed====== */
+.portfolio-item .overly{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.portfolio-item .overly h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.portfolio-item:hover .overly{
+    top: 0;
 }

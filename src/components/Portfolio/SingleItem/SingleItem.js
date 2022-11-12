@@ -12,6 +12,9 @@ const SingleItem = (props) => {
                 <div className='image'>
                     <img src={item.image} alt="" />
                 </div>
+                <div className='overly'>
+                    <h4>Preview</h4>
+                </div>
             </Grid>
         </>
     );
