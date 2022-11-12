@@ -1,0 +1,16 @@
+
+.portfolio-item{
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+.portfolio-item .image{
+    height: 220px;
+    max-width: 270px;
+    border: 1px solid #162222;
+    overflow: hidden;
+}
+.portfolio-item .image img{
+    height: 100%;
+    width: 100%;    
+    object-fit: cover;
+}
