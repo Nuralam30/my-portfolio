@@ -23,7 +23,7 @@ const Portfolio = () => {
                     <div className="filter-portfolio">    
                         <Grid container spacing={2}>
                             {
-                                PortfolioItems.map(pf => <SingleItem item={pf}></SingleItem>)
+                                PortfolioItems.map(pf => <SingleItem key={pf.name} item={pf}></SingleItem>)
                             }
                         </Grid>
                     </div>
