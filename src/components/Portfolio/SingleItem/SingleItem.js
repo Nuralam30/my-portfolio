@@ -11,10 +11,10 @@ const SingleItem = (props) => {
         <>
             <Grid xs={12} md={6} lg={3} className='portfolio-item'>
                 <div className='image'>
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="portfolio" />
                 </div>
                 <div className='overly'>
-                    <Link to='/portfolio-item'></Link>
+                    <Link to='/portfolio-item' className='preview'>Previw</Link>
                 </div>
             </Grid>
         </>

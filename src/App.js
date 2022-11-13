@@ -12,6 +12,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import { useState } from 'react';
 import { createContext } from 'react';
+import ItmePreview from './components/Portfolio/ItemPreview/ItmePreview';
 
 export const ToggleContext = createContext();
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/services' element={<Services></Services>}></Route>
           <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
           <Route path='/contact' element={<Contact></Contact>}></Route>
+          <Route path='/portfolio-item' element={<ItmePreview></ItmePreview>}></Route>
         </Routes>
       </Router>
       

@@ -23,17 +23,20 @@
     position: absolute;
     top: -100%;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease;
 }
-.portfolio-item .overly h4{
-    font-size: 1.3rem;
-    font-weight: 400;
-    cursor: pointer;
-}
 .portfolio-item:hover .overly{
     top: 0;
+}
+.preview{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #c7c5c5;
+}
+.preview:hover{
+    color: aqua;
 }
