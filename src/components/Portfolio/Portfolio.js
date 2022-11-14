@@ -4,8 +4,19 @@ import Header from '../Header/Header';
 import { PortfolioItems } from './PortfolioItems';
 import SingleItem from './SingleItem/SingleItem';
 import { Grid } from '@mui/material';
+import { useState } from 'react';
 
 const Portfolio = () => {
+
+    const [ items, setItems ] = useState();
+
+    const handleFilter = (cat) =>{
+        const categoryItems = PortfolioItems.filter(pi => pi.category === cat);
+        const newItems = [...items, categoryItems]
+        setItems(categoryItems)
+        console.log(categoryItems);
+    }
+
     return (
         <div>
             <Header></Header>
@@ -13,17 +24,17 @@ const Portfolio = () => {
                 <p className="my-text">Working as a Frontend developer with HTML5, CSS3, BOOTSTARP, JQUERY, REACT JS, ANGULAR JS, MATERIAL UI etc. Providing my freelance services on various market places. </p>
 
                 <ul className="filter-btns">
-                    <li className='active'><div className='filter-animation'></div><button className='filter-btn'> ALL </button></li>
-                    <li><div className='filter-animation'></div><button className='filter-btn'> HTML </button></li>
-                    <li><div className='filter-animation'></div><button className='filter-btn'> WORDPRESS </button></li>
-                    <li><div className='filter-animation'></div><button className='filter-btn'> REACT JS </button></li>
-                    <li><div className='filter-animation'></div><button className='filter-btn'> CSS3 </button></li>
+                    <li className='active' onClick={() =>setItems(PortfolioItems)}><div className='filter-animation'></div><button className='filter-btn'> ALL </button></li>
+                    <li onClick={() =>handleFilter('html')}><div className='filter-animation'></div><button className='filter-btn'> HTML </button></li>
+                    <li onClick={() =>handleFilter('wordpress')}><div className='filter-animation'></div><button className='filter-btn'> WORDPRESS </button></li>
+                    <li onClick={() =>handleFilter('react')}><div className='filter-animation'></div><button className='filter-btn'> REACT JS </button></li>
+                    <li onClick={() =>handleFilter('css3')}><div className='filter-animation'></div><button className='filter-btn'> CSS3 </button></li>
                 </ul>
 
                     <div className="filter-portfolio">    
                         <Grid container spacing={2}>
                             {
-                                PortfolioItems.map(pf => <SingleItem key={pf.name} item={pf}></SingleItem>)
+                                PortfolioItems.map(pf => <SingleItem key={pf.id} item={pf}></SingleItem>)
                             }
                         </Grid>
                     </div>

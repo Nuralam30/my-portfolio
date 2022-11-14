@@ -6,62 +6,66 @@ import Wordpress1  from '../utilities/images/portfolio/wordpress1.jpg';
 
 export const PortfolioItems = [
     {
-        categroy: 'css3',
+        id: 1,
+        category: 'css3',
         name: 'Neon button hover effects',
         image: CSS1,
         link: 'https://nuralam30.github.io/neon-button/',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro consequuntur sapiente dicta beatae, repudiandae natus vitae, iste quibusdam similique minima obcaecati aut voluptate illum ullam numquam vel tempore eos libero. Doloribus minima tenetur quia corporis assumenda, ea cum molestiae cupiditate ratione iusto tempore itaque ab voluptatibus minus expedita, hic nemo numquam, labore voluptate quam odit. Voluptates minus reiciendis quae ut, perferendis, praesentium laudantium a inventore saepe eius illo est, similique dolore ipsa dignissimos fugit ipsam. Laboriosam quo facere autem voluptatum quaerat voluptatem quas qui magni repudiandae? Dolorum doloremque ut beatae sequi eius, obcaecati eum deleniti eaque neque facere optio libero voluptates consectetur quaerat aliquam repellendus similique odio? Consequatur quos laudantium, error exercitationem totam nihil doloribus a laboriosam aspernatur maxime vero dicta necessitatibus nesciunt repudiandae fuga molestias praesentium. Accusantium tenetur impedit rem atque amet nemo minima aliquid quaerat placeat molestias reprehenderit, tempore laborum laboriosam et neque fuga assumenda ex error?'
     },
     {
-        categroy: 'wordpress',
+        id: 2,
+        category: 'wordpress',
         name: 'Wordpress Ecommerce website',
         image: Wordpress1,
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro consequuntur sapiente dicta beatae, repudiandae natus vitae, iste quibusdam similique minima obcaecati aut voluptate illum ullam numquam vel tempore eos libero. Doloribus minima tenetur quia corporis assumenda, ea cum molestiae cupiditate ratione iusto tempore itaque ab voluptatibus minus expedita, hic nemo numquam, labore voluptate quam odit. Voluptates minus reiciendis quae ut, perferendis, praesentium laudantium a inventore saepe eius illo est, similique dolore ipsa dignissimos fugit ipsam. Laboriosam quo facere autem voluptatum quaerat voluptatem quas qui magni repudiandae? Dolorum doloremque ut beatae sequi eius, obcaecati eum deleniti eaque neque facere optio libero voluptates consectetur quaerat aliquam repellendus similique odio? Consequatur quos laudantium, error exercitationem totam nihil doloribus a laboriosam aspernatur maxime vero dicta necessitatibus nesciunt repudiandae fuga molestias praesentium. Accusantium tenetur impedit rem atque amet nemo minima aliquid quaerat placeat molestias reprehenderit, tempore laborum laboriosam et neque fuga assumenda ex error?'
     },
     {
-        categroy: 'react',
+        id: 3,
+        category: 'react',
         name: 'Weather App',
         image: React1,
         link: 'https://nuralam30.github.io/WeatherApp/',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro consequuntur sapiente dicta beatae, repudiandae natus vitae, iste quibusdam similique minima obcaecati aut voluptate illum ullam numquam vel tempore eos libero. Doloribus minima tenetur quia corporis assumenda, ea cum molestiae cupiditate ratione iusto tempore itaque ab voluptatibus minus expedita, hic nemo numquam, labore voluptate quam odit. Voluptates minus reiciendis quae ut, perferendis, praesentium laudantium a inventore saepe eius illo est, similique dolore ipsa dignissimos fugit ipsam. Laboriosam quo facere autem voluptatum quaerat voluptatem quas qui magni repudiandae? Dolorum doloremque ut beatae sequi eius, obcaecati eum deleniti eaque neque facere optio libero voluptates consectetur quaerat aliquam repellendus similique odio? Consequatur quos laudantium, error exercitationem totam nihil doloribus a laboriosam aspernatur maxime vero dicta necessitatibus nesciunt repudiandae fuga molestias praesentium. Accusantium tenetur impedit rem atque amet nemo minima aliquid quaerat placeat molestias reprehenderit, tempore laborum laboriosam et neque fuga assumenda ex error?'
     },
     {
-        categroy: 'css3',
+        id: 4,
+        category: 'css3',
         name: 'box awesome hover effects',
         image: CSS2,
         link: 'https://nuralam30.github.io/css-awesome-hover/',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro consequuntur sapiente dicta beatae, repudiandae natus vitae, iste quibusdam similique minima obcaecati aut voluptate illum ullam numquam vel tempore eos libero. Doloribus minima tenetur quia corporis assumenda, ea cum molestiae cupiditate ratione iusto tempore itaque ab voluptatibus minus expedita, hic nemo numquam, labore voluptate quam odit. Voluptates minus reiciendis quae ut, perferendis, praesentium laudantium a inventore saepe eius illo est, similique dolore ipsa dignissimos fugit ipsam. Laboriosam quo facere autem voluptatum quaerat voluptatem quas qui magni repudiandae? Dolorum doloremque ut beatae sequi eius, obcaecati eum deleniti eaque neque facere optio libero voluptates consectetur quaerat aliquam repellendus similique odio? Consequatur quos laudantium, error exercitationem totam nihil doloribus a laboriosam aspernatur maxime vero dicta necessitatibus nesciunt repudiandae fuga molestias praesentium. Accusantium tenetur impedit rem atque amet nemo minima aliquid quaerat placeat molestias reprehenderit, tempore laborum laboriosam et neque fuga assumenda ex error?'
     },
     // {
-    //     categroy: 'css3',
+    //     category: 'css3',
     //     image: '',
     // },
     // {
-    //     categroy: 'wordpress',
+    //     category: 'wordpress',
     //     image: '',
     // },
     // {
-    //     categroy: 'css3',
+    //     category: 'css3',
     //     image: '',
     // },
     // {
-    //     categroy: 'react',
+    //     category: 'react',
     //     image: '',
     // },
     // {
-    //     categroy: 'wordpress',
+    //     category: 'wordpress',
     //     image: '',
     // },
     // {
-    //     categroy: 'html',
+    //     category: 'html',
     //     image: '',
     // },
     // {
-    //     categroy: 'css3',
+    //     category: 'css3',
     //     image: '',
     // },
     // {
-    //     categroy: 'html',
+    //     category: 'html',
     //     image: '',
     // },
 ]
