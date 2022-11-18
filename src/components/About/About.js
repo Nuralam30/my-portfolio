@@ -6,7 +6,9 @@ const About = () => {
     return (
         <div>
             <Header></Header>
-            <h2>This is about page</h2>
+            <div className="intro">
+                <p className="intro-text">Hello, My name is Nura Alam and I am a junior Frontend Developer working on various frontend design for 3-4 years. I have already completed my frontend designing of various websites. I also provide my services on wordpress customizaton and bug fixing in (html,css and js)  </p>
+            </div>
         </div>
     );
 };
