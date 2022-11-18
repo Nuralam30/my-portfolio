@@ -21,7 +21,10 @@ const ItmePreview = () => {
                 <Grid xs={12} md={4}>
                     <h1>{item.name}</h1>
                     <h3>Category : {item.category}</h3>
-                    <h4>Live : <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a></h4>
+                    {
+                        item.link && 
+                        <h4>Live : <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a></h4>
+                    }                
                     <div className='details'>
                         <h2>Project Description</h2>
                         <p>{item.description}</p>

@@ -10,17 +10,34 @@
     .service-home{
         padding: 10px 30px !important;
     }
+
+    /* ========portfolio style======== */
+    .portfolio{
+        padding: 10px 70px !important;
+    }
 }
 
 @media screen and (max-width: 720px) {
+    /* =====banner style==== */
     .banner-text p{
         font-size: 1.1rem !important;
     }
     .banner-text .highlight{
         font-size: 1.3rem !important;
     }
+
+    /* ========services style======== */
     .service-text{
         font-size: 1.5rem !important;
+    }
+
+    /* ========portfolio style======== */
+    .portfolio{
+        padding: 10px 50px !important;
+    }
+    .item-preview{
+        padding: 70px 60px !important;
+    
     }
 }
 
@@ -36,6 +53,8 @@
     }
 }
 @media screen and (max-width: 480px) {
+
+    /* ========header style======== */
     .header{
         padding: 0px 30px !important;
     }
@@ -45,6 +64,8 @@
     .navbar nav #nav-link{
         font-size: 0.9rem !important;
     }
+
+    /* ========banner style======== */
     .banner-text{
         padding: 0px 20px !important;
     }
@@ -60,6 +81,8 @@
     .btn-animation{
         font-size: 0.7rem !important;
     }
+
+    /* ========services style======== */
     .services,
     .service-home{
         padding: 10px 15px !important;
@@ -69,6 +92,8 @@
     }
 }
 @media screen and (max-width: 420px) {
+
+    /* ========banner style======== */
     .banner-text p{
         font-size: 12px !important;
     }
@@ -83,7 +108,17 @@
         font-size: 0.5rem !important;
     }
     
+    /* ========contact style======== */
     .contact{
         padding: 10px 30px !important;
+    }
+
+    /* ========portfolio style======== */
+    .portfolio{
+        padding: 10px 30px !important;
+    }
+    .item-preview{
+        padding: 40px 50px !important;
+    
     }
 }

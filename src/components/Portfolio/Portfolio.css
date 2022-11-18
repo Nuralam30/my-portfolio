@@ -20,7 +20,7 @@
     margin-bottom: 50px;
 }
 .filter-btns li{
-    margin: 0px 7px;
+    margin: 5px 7px;
     padding: 3px 8px;
     text-transform: uppercase;
     background-color: #1f2e2e;
@@ -30,10 +30,12 @@
                 3px 4px 1px inset #2e3b3b,
                 2px 3px 2px inset #111616,
                 4px 3px 1px inset #2e3b3b;
+    transition: all .4s ease;
 }
 .filter-btns li:hover,
 .filter-btns li.active{
-    background-color: #121818;
+    background-color: #0d1313;
+    /* background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)); */
 }
 
 
