@@ -1,12 +1,31 @@
+
+.about{
+    padding: 10px 100px;
+    width: 100%;
+}
 .intro{
     min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .intro-text{
-    max-width: 75%;
+    max-width: 90%;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 300;
+}
+.skills-educations{
+    display: flex;
+}
+.skills,
+.educations{
+    background-color: #09181d;
+    margin: 10px 20px;
+    padding: 30px;
+    box-shadow: 10px 5px 10px #0b0e0f inset,
+                5px 10px 10px #09181d inset,
+                0px 5px 10px #0b0e0f inset,
+                5px 10px 10px #09181d inset;
 }
