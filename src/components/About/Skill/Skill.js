@@ -25,7 +25,7 @@ const Skill = (props) => {
         <div className="skill">
             <h4>{name}</h4>
             <span className='percent-value'>{percent}% </span>
-            <BorderLinearProgress variant="determinate" value={percent} />
+            <BorderLinearProgress variant="determinate" value={percent} className='skill-bar' />
         </div>
     );
 };

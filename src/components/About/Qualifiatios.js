@@ -12,18 +12,38 @@ export const Skills = [
     },
     {
         id: 3,
-        name: 'JAVASCRIPT',
+        name: 'BOOTSTARP',
         percent: 85
     },
     {
         id: 4,
+        name: 'JAVASCRIPT',
+        percent: 85
+    },
+    {
+        id: 5,
+        name: 'JQUERY',
+        percent: 70
+    },
+    {
+        id: 6,
         name: 'REACT JS',
         percent: 80
     },
     {
-        id: 5,
+        id: 7,
         name: 'MATERIAL UI',
         percent: 85
+    },
+    {
+        id: 8,
+        name: 'PHP',
+        percent: 50
+    },
+    {
+        id: 9,
+        name: 'PYTHON',
+        percent: 60
     }
 ]
 
