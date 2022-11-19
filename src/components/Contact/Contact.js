@@ -15,7 +15,7 @@ const Contact = () => {
             <Header></Header>
             <div className="contact"> 
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={8}>
+                        <Grid item xs={12} md={8}  data-aos="zoom-in">
                             <Box
                                 sx={{
                                     width: 350,
@@ -54,7 +54,7 @@ const Contact = () => {
                         </Box> 
                     </Grid>
 
-                    <Grid item xs={12} md={4}> 
+                    <Grid item xs={12} md={4} data-aos="fade-left"> 
                         <div className="contact-links">
                             <h2>Connnect me on</h2>
                             <a href="https://www.facebook.com/nuralom.bhuiyain.1" rel='noreferrer' target='_blank'><FacebookIcon sx={{fontSize: '1.8rem'}} className='fb'></FacebookIcon> Facebook</a>
