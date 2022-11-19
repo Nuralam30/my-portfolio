@@ -8,11 +8,45 @@
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px 100px;
 }
+.lets-talk{
+    text-align: center;
+}
+.talk-text{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.talk-media{
+    line-height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7c7e80;
+}
+.whatsapp{
+    color: #26d326;
+    margin-right: 5px;
+}
 .contact-social a{
     margin: 8px;
 }
 .contact-social a:hover .icon{
     transform: translate(-4px , -4px);
     transition: all 0.5s ease;
+}
+
+.quick-links nav{
+    display: flex;
+    flex-direction: column;
+}
+.quick-links nav #nav-link{
+    font-size: 1rem;
+    padding: 2px;
+    margin: 0;
+}
+.quick-links #nav-link.active::before{
+    content: '';
+    width: 0;
+    height: 0;
 }
 

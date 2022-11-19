@@ -4,6 +4,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import Navbar from './../Header/Navbar/Navbar';
 
 
 const Footer = () => {
@@ -11,7 +13,8 @@ const Footer = () => {
         <div className='footer'>
             <div className="lets-talk">
                 <p className='talk-text'>Let's Talk</p>
-                <span className="talk-media"></span>
+                <p className="talk-media">Email: nuralam.hstu.930@gmail.com</p>
+                <p className="talk-media"><WhatsAppIcon className='whatsapp'></WhatsAppIcon> +8801854405107</p>
             </div>
 
             <div className="contact-social">
@@ -25,7 +28,8 @@ const Footer = () => {
             </div>
 
             <div className="quick-links">
-                <h2>links</h2>
+                <p className='talk-text'>Quick Links</p>
+                <Navbar></Navbar>
             </div>
         </div>
     );
