@@ -6,8 +6,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px 100px;
+    padding: 20px 150px;
 }
+
+.lets-talk,
+.contact-social,
+.quick-links{
+    margin: 10px;
+}
+
 .lets-talk{
     text-align: center;
 }
@@ -40,13 +47,12 @@
     flex-direction: column;
 }
 .quick-links nav #nav-link{
+    text-decoration: none;
     font-size: 1rem;
+    color: #c7c5c5;
     padding: 2px;
-    margin: 0;
 }
-.quick-links #nav-link.active::before{
-    content: '';
-    width: 0;
-    height: 0;
+.quick-links nav #nav-link:hover{
+    color: aqua;
 }
 

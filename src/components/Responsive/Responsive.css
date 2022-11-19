@@ -4,6 +4,12 @@
     .service-home{
         padding: 10px 60px !important;
     }
+
+    /* ========about style======== */
+    .skills-educations{
+        padding: 10px 60px !important;
+    }
+
 }
 @media screen and (max-width: 870px) {
     .services,
@@ -38,6 +44,14 @@
     .item-preview{
         padding: 70px 60px !important;
     
+    }
+
+    /* ========about style======== */
+    .intro-text{
+        font-size: 1.4rem !important;
+    }
+    .skills-educations{
+        padding: 10px 40px !important;
     }
 }
 
@@ -89,6 +103,18 @@
     }
     .service-text{
         font-size: 1.3rem !important;
+    }
+
+
+    /* ========about style======== */
+    .intro-text{
+        font-size: 1rem !important;
+    }
+    .skills-educations{
+        padding: 10px 20px !important;
+    }
+    .footer{
+        padding: 10px 40px !important;
     }
 }
 @media screen and (max-width: 420px) {

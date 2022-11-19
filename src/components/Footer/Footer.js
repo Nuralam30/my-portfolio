@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import Navbar from './../Header/Navbar/Navbar';
+import { NavLink } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -29,7 +29,17 @@ const Footer = () => {
 
             <div className="quick-links">
                 <p className='talk-text'>Quick Links</p>
-                <Navbar></Navbar>
+                <nav>
+                    <NavLink to="/" id='nav-link'> -- Home</NavLink>
+
+                    <NavLink to="/about" id='nav-link'> -- About</NavLink>
+
+                    <NavLink to="/services" id='nav-link'> -- Services</NavLink>
+
+                    <NavLink to="/portfolio" id='nav-link'> -- Portfolio </NavLink>
+
+                    <NavLink to="/contact" id='nav-link'> -- Contact </NavLink>
+                </nav>
             </div>
         </div>
     );
