@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import './Home.css';
 import { AllServices } from '../Services/allServices';
 import Service from '../Services/Service/Service';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
                 services3.map( ser => <Service card={ser}></Service>)
             }
             </div>
+            <Footer></Footer>
         </div>
     );
 };

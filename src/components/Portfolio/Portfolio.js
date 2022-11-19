@@ -5,6 +5,7 @@ import { PortfolioItems } from './PortfolioItems';
 import SingleItem from './SingleItem/SingleItem';
 import { Grid } from '@mui/material';
 import { useState } from 'react';
+import Footer from '../Footer/Footer';
 
 const Portfolio = () => {
 
@@ -49,6 +50,7 @@ const Portfolio = () => {
                         </Grid>
                     </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

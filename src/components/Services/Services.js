@@ -3,6 +3,7 @@ import './Services.css';
 import Header from '../Header/Header';
 import { AllServices } from './allServices';
 import Service from './Service/Service';
+import Footer from '../Footer/Footer';
 
 const Services = () => {
 
@@ -17,6 +18,7 @@ const Services = () => {
                     }
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
