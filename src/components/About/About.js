@@ -1,25 +1,11 @@
 import React from 'react';
 import './About.css';
 import Header from '../Header/Header';
-import { styled } from '@mui/material/styles';
 import { Grid } from '@mui/material';
-import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import { Skills } from './Qualifiatios';
+import Skill from './Skill/Skill';
 
 const About = () => {
-
-
-    const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
-        height: 10,
-        borderRadius: 5,
-        [`&.${linearProgressClasses.colorPrimary}`]: {
-            backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
-        },
-        [`& .${linearProgressClasses.bar}`]: {
-            borderRadius: 5,
-            backgroundColor: theme.palette.mode === 'light' ? '#1a90ff' : '#308fe8',
-        },
-    }));
-
 
     return (
         <div className='about'>
@@ -31,7 +17,10 @@ const About = () => {
                 <Grid container spacing={2}>
                     <Grid xs={12} md={6}>
                         <div className="skills">
-                            <BorderLinearProgress variant="determinate" value={50} />
+                            <h3 className='section-title'>Skills</h3>
+                            {
+                                Skills.map(sk => <Skill key={sk.id} skill={sk}></Skill>)
+                            }
                         </div>
                     </Grid>
                     <Grid xs={12} md={6}>

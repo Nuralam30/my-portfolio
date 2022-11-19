@@ -29,3 +29,8 @@
                 0px 5px 10px #0b0e0f inset,
                 5px 10px 10px #09181d inset;
 }
+.section-title{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}

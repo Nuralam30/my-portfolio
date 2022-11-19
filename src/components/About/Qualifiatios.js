@@ -1,5 +1,33 @@
 
-export const Qualifications = [
+export const Skills = [
+    {
+        id: 1,
+        name: 'HTML',
+        percent: 95
+    },
+    {
+        id: 2,
+        name: 'CSS',
+        percent: 90
+    },
+    {
+        id: 3,
+        name: 'JAVASCRIPT',
+        percent: 85
+    },
+    {
+        id: 4,
+        name: 'REACT JS',
+        percent: 80
+    },
+    {
+        id: 5,
+        name: 'MATERIAL UI',
+        percent: 85
+    }
+]
+
+export const Educations = [
     {
         id: 1,
         degree: 'Web Design and Development',
