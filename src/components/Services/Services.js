@@ -11,7 +11,7 @@ const Services = () => {
         <div>
             <Header></Header>
             <div className="services">
-                <p className="service-text">Works as a Freelancer on Fiverr, Upwork, Linkedin & other marketplaces based on Bangladesh. Highly experienced in Frontend Website Design & Fixing any CSS & JS issues.</p>
+                <p className="service-text" data-aos="fade-right">Works as a Freelancer on Fiverr, Upwork, Linkedin & other marketplaces based on Bangladesh. Highly experienced in Frontend Website Design & Fixing any CSS & JS issues.</p>
                 <div className="service">
                     {
                         AllServices.map( ser => <Service card={ser}></Service>)

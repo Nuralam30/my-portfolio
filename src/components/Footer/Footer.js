@@ -10,11 +10,11 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' data-aos="flip-up">
             <div className="lets-talk">
                 <p className='talk-text'>Let's Talk</p>
                 <p className="talk-media">Email: nuralam.hstu.930@gmail.com</p>
-                <p className="talk-media"><WhatsAppIcon className='whatsapp'></WhatsAppIcon> +8801854405107</p>
+                <p className="talk-media"><WhatsAppIcon className='whatsapp'></WhatsAppIcon> +8801854-405107</p>
             </div>
 
             <div className="contact-social">

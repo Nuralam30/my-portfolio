@@ -10,15 +10,26 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { createContext } from 'react';
 import ItmePreview from './components/Portfolio/ItemPreview/ItmePreview';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const ToggleContext = createContext();
 
 function App() {
 
   const [isNav, setIsNav] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, [])
 
   return (
     <ToggleContext.Provider value={[isNav, setIsNav]} className="App">

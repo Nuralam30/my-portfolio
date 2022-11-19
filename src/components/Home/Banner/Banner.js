@@ -21,13 +21,13 @@ const Banner = () => {
 
 
             <Grid container spacing={2} className='banner-text'>
-                <Grid item xs={6} md={8}>
+                <Grid item xs={6} md={8} data-aos="fade-left">
                     <p>Hi, My name is <span className='highlight'>Nura Alam</span></p>
                     <p className='typed-text'>I am a <Typed className='highlight'></Typed></p>
                     <div className='get-in-touch'> <div className='btn-hover'> </div><button className='get-in-touch-btn btn-animation'>Get in Touch</button> </div>
                 </Grid>
 
-                <Grid item xs={6} md={4}>
+                <Grid item xs={6} md={4} data-aos="fade-right">
                     <div className="profile-image">
                         <img src={profileImage} alt="profile" />
                     </div>

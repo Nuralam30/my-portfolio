@@ -14,7 +14,7 @@ const Home = () => {
         <div className='home'>
             <Header></Header>
             <Banner></Banner>
-            <div className="service-home">
+            <div className="service-home"  data-aos="fade-down">
             {
                 services3.map( ser => <Service card={ser}></Service>)
             }

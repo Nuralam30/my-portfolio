@@ -12,7 +12,7 @@ const Service = (props) => {
     const { image, heading } = props.card;
     return (
         <>
-            <Card sx={{ maxWidth: 345 }} className='service-card'>
+            <Card sx={{ maxWidth: 345 }} className='service-card' data-aos="flip-right">
                 <div className="service-img">
                     <CardMedia
                         component="img"

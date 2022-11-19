@@ -32,9 +32,9 @@ const Portfolio = () => {
         <div>
             <Header></Header>
             <div className="portfolio">
-                <p className="my-text">Working as a Frontend developer with HTML5, CSS3, BOOTSTARP, JQUERY, REACT JS, ANGULAR JS, MATERIAL UI etc. Providing my freelance services on various market places. </p>
+                <p className="my-text" data-aos="zoom-in">Working as a Frontend developer with HTML5, CSS3, BOOTSTARP, JQUERY, REACT JS, ANGULAR JS, MATERIAL UI etc. Providing my freelance services on various market places. </p>
 
-                <ul className="filter-btns">
+                <ul className="filter-btns" data-aos="fade-right">
                     <li className={isActive ? '' : 'active'} onClick={showAll}>All</li>
                     {
                         categories.map(ca => <li className={isActive === ca ? 'active' : ''} onClick={handleFilter}>{ca}</li>)
