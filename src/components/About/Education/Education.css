@@ -1,0 +1,27 @@
+
+
+.education{
+    padding: 20px 15px;
+    padding-bottom: 30px;
+    border-bottom: 2px dotted #2f3638;
+}
+.education:last-child{
+    border: none;
+}
+.edu-heading,
+.edu-institute{
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.edu-heading{
+    font-size: 1.4rem;
+}
+.edu-institute{
+    font-size: 1.1rem;
+}
+.edu-description{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7c7e80;
+}

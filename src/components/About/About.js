@@ -2,8 +2,9 @@ import React from 'react';
 import './About.css';
 import Header from '../Header/Header';
 import { Grid } from '@mui/material';
-import { Skills } from './Qualifiatios';
+import { Educations, Skills } from './Qualifiatios';
 import Skill from './Skill/Skill';
+import Education from './Education/Education';
 
 const About = () => {
 
@@ -25,7 +26,10 @@ const About = () => {
                     </Grid>
                     <Grid xs={12} md={6}>
                         <div className="educations">
-                            <h2>Hello</h2>
+                            <h3 className="section-title">Education</h3>
+                            {
+                                Educations.map(edu => <Education key={edu.id} education={edu}></Education>)
+                            }
                         </div>
                     </Grid>
                 </Grid>
