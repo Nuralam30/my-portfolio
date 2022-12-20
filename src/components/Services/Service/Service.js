@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 const Service = (props) => {
 
-    const { image, heading } = props.card;
+    const { image, heading, description } = props.card;
     return (
         <>
             <Card sx={{ maxWidth: 345 }} className='service-card' data-aos="flip-right">
@@ -25,12 +25,10 @@ const Service = (props) => {
                         {heading}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        {description}
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Share</Button>
                     <Button size="small">Learn More</Button>
                 </CardActions>
             </Card>
