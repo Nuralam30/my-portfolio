@@ -4,8 +4,8 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     background-color: #09181d !important;
     box-shadow: 10px 5px 10px #0b0e0f inset,
                 5px 10px 10px #09181d inset,
