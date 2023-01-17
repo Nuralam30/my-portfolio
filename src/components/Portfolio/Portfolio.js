@@ -41,7 +41,7 @@ const Portfolio = () => {
                     }
                 </ul>
 
-                    <div className="filter-portfolio">    
+                    <div className="filter-portfolio" data-aos="fade-left">    
                         <Grid container spacing={2}>
                             {
                                 filterItems ? items.map(pf => <SingleItem key={pf.id} item={pf}></SingleItem>) :

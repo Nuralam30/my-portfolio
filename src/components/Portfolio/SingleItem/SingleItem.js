@@ -9,7 +9,7 @@ const SingleItem = (props) => {
 
     return (
         <>
-            <Grid xs={12} md={6} lg={3} className='portfolio-item' data-aos="fade-left">
+            <Grid xs={12} md={6} lg={3} className='portfolio-item' data-aos="zoom-in">
                 <div className='image'>
                     <img src={image} alt="portfolio" />
                 </div>

@@ -14,11 +14,11 @@ const ItmePreview = () => {
         <div className='item-preview'>
             <Grid container spacing={2}>
                 <Grid xs={12} md={8}>
-                    <div className="item-img">
+                    <div className="item-img" data-aos="zoom-in">
                         <img src={item.image} alt="" />
                     </div>
                 </Grid>
-                <Grid xs={12} md={4}>
+                <Grid xs={12} md={4} data-aos="fade-left">
                     <h1>{item.name}</h1>
                     <h3>Category : {item.category}</h3>
                     {

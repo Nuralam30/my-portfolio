@@ -12,6 +12,9 @@
                 0px 5px 10px #0b0e0f inset,
                 5px 10px 10px #09181d inset !important;
 }
+.service-card:hover{
+    background-color: #060f13 !important;
+}
 .css-1ri6ub7-MuiPaper-root-MuiCard-root {
     background-color: #0e1b1f !important;
     text-align: center;
