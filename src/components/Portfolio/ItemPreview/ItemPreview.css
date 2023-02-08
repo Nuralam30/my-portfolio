@@ -5,6 +5,7 @@
 }
 .item-img{
     max-width: 650px;
+    margin-bottom: 15px;
 }
 .item-img img{
     width: 100%;
@@ -22,4 +23,7 @@
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+.details p{
+    color: #918e8e;
 }

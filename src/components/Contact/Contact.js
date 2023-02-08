@@ -23,15 +23,15 @@ const Contact = () => {
                                 }}
                             >
                             <FormGroup>
-                                <FormControl>
+                                <FormControl className='form-control'>
                                     <InputLabel htmlFor="my-input">Your name</InputLabel>
                                     <Input id="my-input" aria-describedby="my-helper-text" />
                                 </FormControl>
-                                <FormControl>
+                                <FormControl className='form-control'>
                                     <InputLabel htmlFor="my-input">Email address</InputLabel>
                                     <Input id="my-input" aria-describedby="my-helper-text" />
                                 </FormControl>
-                                <FormControl>
+                                <FormControl className='form-control'>
                                     <InputLabel htmlFor="my-input">Phone Number</InputLabel>
                                     <Input id="my-input" aria-describedby="my-helper-text" />
                                 </FormControl>

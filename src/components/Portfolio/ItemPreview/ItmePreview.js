@@ -20,7 +20,6 @@ const ItmePreview = () => {
                 </Grid>
                 <Grid xs={12} md={4} data-aos="fade-left">
                     <h1>{item.name}</h1>
-                    <h3>Category : {item.category}</h3>
                     {
                         item.link && 
                         <h4>Live : <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a></h4>

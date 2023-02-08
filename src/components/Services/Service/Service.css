@@ -29,7 +29,9 @@
 .MuiCardMedia-img{
     height: 100%;
 }
-.MuiTypography-h5,
-.MuiTypography-body2{
+.MuiTypography-h5{
     color: #c7c5c5 !important;
+}
+.MuiTypography-body2{
+    color: #adaaaa !important;
 }
