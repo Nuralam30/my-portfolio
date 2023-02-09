@@ -67,7 +67,7 @@ export const PortfolioItems = [
     },
     {
         id: 8,
-        category: 'mern',
+        category: 'react',
         name: 'MERN pizza app',
         image: mern1,
         link: 'https://pizza-hut-app.cyclic.app/',
