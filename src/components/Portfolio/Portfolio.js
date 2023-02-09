@@ -16,7 +16,7 @@ const Portfolio = () => {
     const categories = [...new Set(PortfolioItems.map(item => item.category))]
 
     const handleFilter = (e) =>{
-        const newItems = PortfolioItems.filter(item => item.category === e.currentTarget.textContent);
+        const newItems = PortfolioItems.filter(item => item.category === e.currentTarget.textContent || item.subcategory === e.currentTarget.textContent);
         setItems(newItems);
         setFilterItems(true);
         setIsActive(e.currentTarget.textContent)

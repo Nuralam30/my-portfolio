@@ -26,7 +26,7 @@ const ItmePreview = () => {
                     }                
                     <div className='details'>
                         <h2>Project Description</h2>
-                        <p>{item.description}</p>
+                        {item.description.map((desc, i) => <div key={i}> <p>{desc} </p> <br /></div>)}
                     </div>
                 </Grid>
             </Grid>
