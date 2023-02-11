@@ -80,6 +80,7 @@ export const PortfolioItems = [
         name: 'KASMARN Eshop',
         image: figma2,
         link: 'https://www.figma.com/file/ua9zAwuBUY5CMzNSWL3LjU/ecommerce-website-kasmarn?node-id=1%3A3&t=QJpqPNRoGrvxOqSA-0',
+        github: 'https://github.com/Nuralam30/kasmarn_eshop',
         description: ['This is my another mern stack project and here i will integrete all the functionality of an ecommerce website. I have initially created the figma design for this website and very soom i will upload the live link for this project.']
     },
 ]

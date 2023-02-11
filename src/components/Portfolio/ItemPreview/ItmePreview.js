@@ -23,7 +23,11 @@ const ItmePreview = () => {
                     {
                         item.link && 
                         <h4>Live : <a href={item.link} target="_blank" rel="noopener noreferrer">{item.link}</a></h4>
-                    }                
+                    }
+                    {
+                        item.github && 
+                        <h4>Github : <a href={item.github} target="_blank" rel="noopener noreferrer">{item.link}</a></h4>
+                    }             
                     <div className='details'>
                         <h2>Project Description</h2>
                         {item.description.map((desc, i) => <div key={i}> <p>{desc} </p> <br /></div>)}
